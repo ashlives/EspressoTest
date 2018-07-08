@@ -22,7 +22,10 @@ jobs:
           key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
       - run:
           name: Run Tests
-          command: ./gradlew lint test
+          command:  |
+                   emulator -avd circleci-android22 -no-audio -no-window:
+                   background: true
+                   parallel: true
       - store_artifacts:
           path: app/build/reports
           destination: reports
