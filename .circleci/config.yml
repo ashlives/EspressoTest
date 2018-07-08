@@ -23,7 +23,7 @@ jobs:
       - run:
           name: Run Tests
           command:  |
-                   emulator -avd circleci-android27 -no-audio -no-window:
+                   emulator -avd circleci-android28 -no-audio -no-window:
                    background: true
                    parallel: true
       - store_artifacts:
