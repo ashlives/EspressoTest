@@ -12,7 +12,6 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static com.mytaxi.android_demo.activities.Locator.findByRId;
 import static com.mytaxi.android_demo.activities.Locator.findByRText;
 
-@RunWith(AndroidJUnit4.class)
 public class Search  {
 
     public Search(String name) throws InterruptedException{

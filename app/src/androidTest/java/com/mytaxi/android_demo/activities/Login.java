@@ -14,7 +14,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.isClickable;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static com.mytaxi.android_demo.activities.Locator.findByRId;
 
-@RunWith(AndroidJUnit4.class)
+
 public class Login {
 
     public Login(String username, String pass)
