@@ -1,11 +1,8 @@
 package com.mytaxi.android_demo.activities;
 
 import android.support.test.espresso.action.ViewActions;
-import android.support.test.runner.AndroidJUnit4;
 
 import com.mytaxi.android_demo.R;
-
-import org.junit.runner.RunWith;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;

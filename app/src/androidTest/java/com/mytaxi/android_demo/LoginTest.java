@@ -1,14 +1,8 @@
 package com.mytaxi.android_demo;
 
-import android.support.test.espresso.Espresso;
-import android.support.test.espresso.Root;
-import android.support.test.espresso.action.ViewActions;
-import android.support.test.espresso.matcher.RootMatchers;
-import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
-import android.util.Log;
 
 import com.mytaxi.android_demo.activities.Calling;
 import com.mytaxi.android_demo.activities.Login;
