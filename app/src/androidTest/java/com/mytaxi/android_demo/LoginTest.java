@@ -10,9 +10,6 @@ import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.util.Log;
 
-
-import com.mytaxi.android_demo.activities.AuthenticatedActivity;
-import com.mytaxi.android_demo.activities.AuthenticationActivity;
 import com.mytaxi.android_demo.activities.Calling;
 import com.mytaxi.android_demo.activities.Login;
 import com.mytaxi.android_demo.activities.MainActivity;
@@ -23,14 +20,9 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static android.support.test.espresso.Espresso.closeSoftKeyboard;
-import static android.support.test.espresso.Espresso.onData;
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
-import static android.support.test.espresso.action.ViewActions.typeText;
 import static android.support.test.espresso.matcher.RootMatchers.withDecorView;
-import static android.support.test.espresso.matcher.ViewMatchers.withContentDescription;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.Matchers.not;
@@ -57,6 +49,7 @@ public class LoginTest {
     public void test1() throws InterruptedException {
 
         Login login = new Login(userName, password);
+        Log.i("Some text for testing");
 
         Search search = new Search(keyword);
 
