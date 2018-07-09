@@ -49,7 +49,7 @@ public class LoginTest {
     public void test1() throws InterruptedException {
 
         Login login = new Login(userName, password);
-        Log.i("Some text for testing");
+        Log.i("Step", "Some text");
 
         Search search = new Search(keyword);
 
