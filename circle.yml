@@ -1,6 +1,7 @@
 general:
     artifacts:
         - /home/ubuntu/EspressoTest/app/build/outputs/apk/
+        - /home/ubuntu/EspressoTest/app/build/reports/androidTests/connected
 
 machine:
   environment:
